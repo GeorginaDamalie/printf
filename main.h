@@ -10,6 +10,7 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int _print_integer(int n);
 int count_digits(int n);
+int _print_binary(unsigned int n);
 void print_integer(int value, char conversion_specifier);
 void print_unsigned_integer_in_binary(unsigned int value);
 void print_unsigned_integer(unsigned int value, char conversion_specifier);
