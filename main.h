@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define  MAIN_H
+#include <stdarg.h>
 
+
+int _printf(const char *format, ...);
+int handle_conversion_specifier(char specifier, va_list args);
+int _print_str(char *str);
 int _putchar(char c);
 int _printf(const char *format, ...);
 void print_integer(int value, char conversion_specifier);
