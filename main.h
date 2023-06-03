@@ -13,6 +13,8 @@ int count_digits(int n);
 int _print_binary(unsigned int n);
 int _print_octal(unsigned int n);
 int _print_hexadecimal(unsigned int n, int uppercase);
+void print_string(char *str);
+void print_string(buffer_t *buffer, char *str)
 void print_integer(int value, char conversion_specifier);
 void print_unsigned_integer_in_binary(unsigned int value);
 void print_unsigned_integer(unsigned int value, char conversion_specifier);
